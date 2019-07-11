@@ -41,6 +41,18 @@
   right: 15px;
 }
 
+.buttonsearch{
+  flex-direction: row;
+}
+
+button {
+  margin: 30px 5px;
+  border: none;
+  border-radius: 2.5px;
+  height: 35px;
+  background-color: #ccc;
+}
+
 input {
   font-family: fontawesome;
   margin-top: 20px;
