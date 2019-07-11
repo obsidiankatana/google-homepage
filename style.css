@@ -1,0 +1,62 @@
+.body {
+  display: block;
+}
+
+#navbar {
+  font-size: 12px;
+}
+
+#navbar li {
+  line-height: 50px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+#navbar .fa-th {
+  margin: 0 10px;
+}
+
+#navbar img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30vh;
+
+}
+
+.search {
+  position: relative;
+}
+
+.fa-search {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}
+
+input {
+  font-family: fontawesome;
+  margin-top: 20px;
+  width: 500px;
+  border-radius: 50px;
+  border: .5px solid #ccc;
+  height: 35px;
+  background-color: white;
+}
+
+
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
